@@ -1,0 +1,45 @@
+.title-cards {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title-cards h2 {
+    margin-bottom: 8px;
+}
+
+.card-list {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    margin-bottom: 50px;
+}
+
+.card-list img {
+    width: 240px%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-list img:hover {
+    transform: scale(1.05);
+}
+
+.card-list img:active {
+    transform: scale(1);
+}
+
+.card-list .card {
+    position: relative;
+}
+
+.card-list .card p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}

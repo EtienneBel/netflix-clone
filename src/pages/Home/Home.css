@@ -12,6 +12,7 @@
     position: absolute;
     width: 100%;
     padding-left: 6%;
+    padding-right: 6%;
     bottom: 0;
 }
 
@@ -69,3 +70,8 @@
     color: #fff;
     transform: scale(1.05);
 }
+
+.more-cards{
+    padding-left: 6%;
+    padding-right: 6%;
+} 
